@@ -8,6 +8,7 @@ const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const moviesInDB = ref(database,"movies")
 
+
 const inputEl = document.getElementById("input-field")
 const addEl = document.getElementById("add-button")
 addEl.addEventListener("click",()=>{
