@@ -4,6 +4,7 @@ import { getDatabase,ref,push } from "https://www.gstatic.com/firebasejs/9.15.0/
 const appSettings = {
     databaseUrl :"https://cartisitic-default-rtdb.firebaseio.com/"
 }
+
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const moviesInDB = ref(database,"movies")
